@@ -1,0 +1,26 @@
+{
+  "name": "easytiktokdl",
+  "version": "1.0.0",
+  "description": "A Node.js module for downloading TikTok videos using a given video URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SharkiPro/easytiktokdl.git"
+  },
+  "keywords": [],
+  "author": "SharkiPro (https://github.com/SharkiPro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monatheoctocat/easytiktokdl/issues"
+  },
+  "homepage": "https://github.com/SharkiPro/easytiktokdl",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^22.12.1"
+  }
+}
