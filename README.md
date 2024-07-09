@@ -24,20 +24,20 @@ Here's an example of how to use the `easytiktokdl` module:
 ```javascript
 const { downloadTikTokVideo } = require("easytiktokdl");
 
-const videoUrl = "URL_DE_LA_VIDEO_TIKTOK";
+const videoUrl = "VIDEO_URL";
 const outputPath = "./downloads/tiktok_video.mp4";
 
 (async () => {
   try {
     const videoPath = await downloadTikTokVideo(videoUrl, outputPath);
-    console.log("Vidéo téléchargée:", videoPath);
+    console.log("Downloaded video output:", videoPath);
   } catch (error) {
-    console.error("Erreur lors du téléchargement:", error);
+    console.error("Error while downloading video:", error);
   }
 })();
 ```
 
-Replace `URL_DE_LA_VIDEO_TIKTOK` with a valid TikTok video URL and `outputPath` with your desired output path.
+Replace `VIDEO_URL` with a valid TikTok video URL and `outputPath` with your desired output path.
 
 ## API
 
@@ -61,15 +61,15 @@ To test the module, you can use the provided `test.js` script:
 ```javascript
 const { downloadTikTokVideo } = require("./index");
 
-const videoUrl = "URL_DE_LA_VIDEO_TIKTOK";
+const videoUrl = "VIDEO_URL";
 const outputPath = "./downloads/tiktok_video.mp4";
 
 (async () => {
   try {
     const videoPath = await downloadTikTokVideo(videoUrl, outputPath);
-    console.log("Vidéo téléchargée:", videoPath);
+    console.log("Downloaded video output:", videoPath);
   } catch (error) {
-    console.error("Erreur lors du téléchargement:", error);
+    console.error("Error while downloading video:", error);
   }
 })();
 ```

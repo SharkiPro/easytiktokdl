@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SharkiPro/easytiktokdl.git"
+    "url": "git+https://github.com/SharkiPro/easytiktokdl.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "SharkiPro (https://github.com/SharkiPro)",
